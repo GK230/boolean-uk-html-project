@@ -29,3 +29,16 @@ main form input {
 main form textarea {
     height: 15rem;
 }
+
+main form button {
+    width: 100px;
+    height: 30px;
+    margin-top: 1rem;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    justify-self: right;
+}
