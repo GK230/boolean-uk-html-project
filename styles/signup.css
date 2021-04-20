@@ -1,0 +1,11 @@
+header nav.right ul li a.signup {
+    background-color: white;
+}
+
+header nav.right ul li a.login {
+    background-color: grey;
+}
+
+main form {
+    margin-top: -6rem;
+}
