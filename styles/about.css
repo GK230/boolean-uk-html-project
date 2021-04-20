@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header nav.left ul li:first-child {
+    padding-bottom: 0.5rem;
+    border-bottom: solid white 2px;
+}
+
+main .about-text {
+    width: 50rem;
+    margin: 7.5rem 20rem;
+    
+}
+
+main .about-text p {
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-wrapper {
+    width: 100vw;
+}
+
+.img-wrapper img {
+    width: 100%;
+    height: 8rem;
+    object-fit: contain;
+}
+
+
+
+
+main img {
+    width: 550px;
+    margin-top: 1rem;
+}
