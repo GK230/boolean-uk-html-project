@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/browse.css">
+    <link rel="stylesheet" href="styles/film.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Read or Review</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="assets/images/logo.png" alt="film journal logo"></a>
+        <nav class="left">
+            <ul>
+                <li><a href="browse.html">Browse</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <nav class="right">
+            <ul>
+                <li><a href="signout.html">Sign out</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Emma1996.jpg/215px-Emma1996.jpg" alt="'Emma' poster">
+            <div class="film-info">
+                <h3 class="name">Emma</h3>
+                <h3 class="released">1996</h3>
+                <h3 class="director">Douglas McGrath</h3>
+                <h3 class="genre">Comedy, Romance, Period</h3>
+                <h3 class="actors">Gwyneth Paltrow, Jeremy Northam</h3>
+            </div>
+        </div>
+        <div class="about">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Jz_P43jHN6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a target="_blank" href="https://www.rottentomatoes.com/m/1073316-emma"><img class="link-logo" src="https://www.rottentomatoes.com/assets/pizza-pie/images/rtlogo.9b892cff3fd.png" alt="Rotten Tomatoes logo"></a>
+            <a target="_blank" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Emma_(1996_theatrical_film)"><img class="link-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png" alt="Wiki logo"></a>
+        </div>
+        <div class="review">
+            <form action="">
+                <label for="date-watched">Date watched:</label>
+                <input type="date" class="date-watched" name="date-watched"><br>
+                <label for="rating">Rating:</label>
+                <div class="rating">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <br>
+                <label for="review">Review:</label>
+                <textarea name="review" rows="20" cols="90" class="review"></textarea><br>
+                <label for="scene">Memorable scene:</label>
+                <input type="file" class="scene" name="scene" accept="video/*"><br>
+                <label for="quote">Memorable quote:</label>
+                <input type="text" class="quote" name="quote">
+                <button type="submit">Save</button>
+                <button type="">Share</button>
+
+            </form>
+        </div>
+        <div class="social">
+            <h3>Share on social media:</h3>
+            <img class="icon" src="https://image.flaticon.com/icons/png/512/124/124010.png" alt="Facebook icon">
+            <img class="icon" src="https://image.flaticon.com/icons/png/512/124/124021.png" alt="Twitter icon">
+            <img class="icon" src="https://pbs.twimg.com/profile_images/1324384358418042880/A-ENfuMC_400x400.jpg" alt="Snapchat icon">
+        </div>
+    </main>
+</body>
+</html>

@@ -44,6 +44,11 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
+    padding-bottom: 0.5rem;
+}
+
+header nav ul li a.active {
+    border-bottom: solid 2px white;
 }
 
 header nav.right ul li a {

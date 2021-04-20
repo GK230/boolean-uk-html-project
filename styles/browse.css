@@ -11,6 +11,7 @@ h2 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    margin-top: 5rem;
 }
 
 main {
@@ -19,8 +20,7 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     width: 98vw;
-    margin-top: 8rem;
-
+    margin-top: 4rem;
 }
 
 main .card {
@@ -31,13 +31,15 @@ main .card {
     border-radius: 5px;
     padding: 1rem;
     line-height: 1.5rem;
-    
+    display: grid;
+    grid-auto-rows: auto;
 }
 
 main .card img {
     width: 12rem;
-    height: 15rem;
+    height: 17rem;
     object-fit: contain;
+    justify-self: center;
 }
 
 main .card h3 {
@@ -47,4 +49,18 @@ main .card h3 {
 
 main .card h3.name { 
     font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+
+main .card h3.director {
+    font-size: 0.75rem;
+}
+
+main .card h3.actors {
+    font-size: 0.75rem;
+}
+
+main a {
+    text-decoration: none;
 }
