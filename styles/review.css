@@ -1,6 +1,4 @@
-header nav.left ul li:first-child {
-    border-bottom: none;
-}
+
 
 main {
     display: grid;
@@ -42,13 +40,7 @@ main button {
     font-size: 2rem;
     font-weight: bolder;
     border: none;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-}
-
-main button.chat {
-    width: fit-content;
-    padding: 0.5rem;
+    border-radius: 5px;;
 }
 
 main .review form {
@@ -74,8 +66,9 @@ main .review form input.quote {
     width: 75rem;
 }
 
-main .review form .rating {
+main .review form .rating span.fa {
     display: inline-block;
+    color: white;
 }
 
 main .review form button {
@@ -86,6 +79,7 @@ main .review form button {
     font-size: 1.25rem;
     margin-left: 2rem;
     margin-bottom: 2rem;
+    
 }
 
 main .social {
