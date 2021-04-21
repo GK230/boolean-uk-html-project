@@ -49,6 +49,17 @@ header nav ul li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+header nav ul li a:hover {
+    color: fuchsia;
+    transition: 1s;
+}
+
+header nav ul li a:visited {
+    color: grey;
+    transition: 1s;
+
+}
+
 header nav ul li a.active {
     border-bottom: solid 2px white;
 }
@@ -60,6 +71,12 @@ header nav.right ul li a {
     border-radius: 5px;
     background-color: white;
     color: black;
+
+}
+
+header nav.right ul li:hover {
+    background-color: darkgrey;
+    transition: 1s;
 
 }
 
@@ -77,8 +94,21 @@ main h2 {
     font-size: 4rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
+    animation: blinking 2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 3;
+
+    
 }
 
+
+@keyframes blinking{
+    0%{   color: white;   }
+    47%{   color: #000; }
+    62%{   color: transparent; }
+    97%{   color:transparent; }
+    100%{  color: #000;   }
+    }
 
 
 

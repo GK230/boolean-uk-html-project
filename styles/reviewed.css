@@ -1,0 +1,40 @@
+main {
+    text-align: unset;
+}
+
+main .card {
+    grid-template-columns: auto 1fr;
+}
+
+main .my-review {
+    display: grid;
+    grid-auto-rows: auto;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    grid-gap: 3rem;
+    margin-bottom: 2rem;
+    width: 75vw;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+main .my-review h4 {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+main .my-review p {
+    font-weight: 300;
+    width: 75ch;
+    margin-top: 1rem;
+    line-height: 1.5rem;
+}
+
+main .my-review .rating {
+    display: inline-block;
+}
+
+main .my-review .rating .fa {
+    color: gold;
+}

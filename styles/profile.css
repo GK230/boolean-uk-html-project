@@ -28,8 +28,8 @@ main .personal-info h4 {
 
 main h3.title {
     font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 main .to-watch {
@@ -38,5 +38,9 @@ main .to-watch {
     grid-auto-flow: column;
     overflow-x: scroll;
     justify-content: start;
+}
+
+main .watched {
+    margin-bottom: 2rem;
 }
 

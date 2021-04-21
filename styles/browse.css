@@ -16,6 +16,16 @@ main {
     flex-wrap: wrap;
     width: 98vw;
     margin-top: 4rem;
+    width: 100vw;
+}
+
+main a:visited {
+    color: pink;
+}
+
+main a .card:hover {
+    box-shadow: 5px 5px 5px 5px grey;
+    transform: translate(-3%, -3%);
 }
 
 main .card {
