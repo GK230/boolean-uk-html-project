@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/browse.css">
     <link rel="stylesheet" href="styles/film.css">
+    <link rel="stylesheet" href="styles/chat.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Read or Review</title>
 </head>
@@ -45,8 +46,32 @@
         </div>
 
         <button>Add to watchlist</button>
-        <button class="chat"><a href="chat.html">Chat</a></button>
+        <h3>Discussion:</h3>
 
+        <div class="messages">
+            <div class="message">
+                <img src="https://pbs.twimg.com/profile_images/653700295395016708/WjGTnKGQ_400x400.png" alt="avatar of messenger">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea atque ullam reiciendis, nostrum aut dolores voluptatum id consequuntur nesciunt doloribus est laborum? Delectus doloribus tenetur assumenda officiis fugit atque?</p>
+            </div>
+
+            <div class="message reply">
+                <img src="http://www.gamasutra.com/db_area/images/news/2018/Jun/320213/supermario64thumb1.jpg" alt="your avatar">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae labore cumque, esse praesentium tempore error, nemo soluta id sit, harum fugit iure totam. Molestias dignissimos exercitationem ut adipisci, quas dolorem!</p>
+            </div>
+
+            <div class="message">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSECLmA89g6Ea1bgJOWx7g-Tj8o8-eeUDEGRQ&usqp=CAU" alt="avatar of messenger">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ea atque ullam reiciendis, nostrum aut dolores voluptatum id consequuntur nesciunt doloribus est laborum? Delectus doloribus tenetur assumenda officiis fugit atque?</p>
+            </div>
+        </div>
+        <form class="chat" action="">
+            <p>Respond:</p>
+            <textarea class="reply" name="reply" placeholder="Your response" rows="4" cols="100">
+    
+            </textarea>
+            <button class="reply">Send</button>
+
+        </form>
         
     </main>
 </body>
