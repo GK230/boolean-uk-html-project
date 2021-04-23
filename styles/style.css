@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-color: black;
     height: 100vh;
@@ -23,6 +29,7 @@ header {
 
 header img {
     max-width: 100%;
+    
 }
 
 header nav {
@@ -73,13 +80,11 @@ header nav.right ul li a {
     border-radius: 5px;
     background-color: white;
     color: black;
-
 }
 
 header nav.right ul li:hover {
     background-color: darkgrey;
     transition: 1s;
-
 }
 
 main {
@@ -91,8 +96,13 @@ main {
 main .wrapper {
     background-image: url("https://cdn.pixabay.com/photo/2019/10/28/10/19/old-frame-4583939_960_720.png");
     background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    place-items: center;
 }
 
 main h2 {
@@ -102,7 +112,8 @@ main h2 {
     font-weight: 300;
     animation: blinking 2s;
     animation-timing-function: ease-in;
-    animation-iteration-count: 3; */
+    animation-iteration-count: 3;
+    text-align: center;
 }
 
 
