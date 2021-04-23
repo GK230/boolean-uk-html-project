@@ -65,6 +65,7 @@ form.chat textarea {
     outline: none;
     border-radius: 10px;
     resize: none;
+    max-width: 100%;
 }
 
 form.chat button {
@@ -97,8 +98,6 @@ form.chat button {
         width: 30rem;
     }
 
-    
-
     .message, .reply {
         width: 40rem;
         height: 7rem;
@@ -116,3 +115,20 @@ form.chat button {
 
 
 }
+
+@media screen and (max-width: 753px) {
+
+    .message, .reply {
+        width: 30rem;
+        height: 10rem;
+        justify-self: center;
+    }
+
+    button {
+        justify-self: center;
+        margin-top: 4rem;
+    }
+
+    h3 {
+        justify-self: center;
+    }
