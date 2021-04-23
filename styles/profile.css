@@ -7,7 +7,7 @@ main {
 
 main .personal-info {
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: auto;
     margin-bottom: 2em;
     justify-self: start;  
     grid-gap: 1rem;
@@ -46,4 +46,18 @@ main .to-watch {
 main .watched {
     margin-bottom: 2rem;
 }
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 638px) {
+
+    header nav.left {
+        display: initial;
+    }
+
+    header nav.left li a {
+        font-size: 1rem;
+    }
+
+}
+
 

@@ -12,7 +12,7 @@ html {
 
 body {
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
     font-family: sans-serif;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -126,94 +126,45 @@ main h2 {
     }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 778px) {
 
-@media only screen and (min-width: 1200px) {
-    main img.frame {
-        margin-top: 4rem;
+    main .wrapper {
+        background-size: 85%;
     }
 }
 
-@media only screen and (max-width: 1200px) {
-    
-    main img.frame {
-        margin-top: 4rem;
-    }
-}
+@media screen and (max-width: 642px) {
 
-@media only screen and (max-width: 942px) {
-
-    
-
-    
-
-    main img {
-        margin-top: 6rem;
+    header nav {
+        font-size: 1.5rem;
     }
 
-    main h2 {
-        top: 55%;
-        left: 55%;
-    }
-}
-
-@media only screen and (max-width: 825px) {
-
-    
-}
-
-@media only screen and (max-width: 791px) {
-
-    
-
-    main h2 {
-        top: 60%;
-        left: 60%;
-    }
-}
-
-@media only screen and (max-width: 673px) {
-
-    
-
-    main h2 {
-        top: 57%;
-        left: 57%;
-    }
-}
-
-@media only screen and (max-width: 603px) {
-
-    
-
-    main h2 {
-        top: 60vw;
-        left: 70vw;
-    }
-}
-
-@media only screen and (max-width: 595px) {
-
-    
-
-    main h2 {
-        top: 20rem;
-        left: 25rem;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-
-    
-    
-    main img.frame {
+    header nav.left {
         display: none;
     }
 
-    main h2 {
-        top: 15rem;
-        left: 15rem;
-        
+    header nav.right {
+        justify-self: end;
     }
 }
 
+@media screen and (max-width: 516px) {
+    
+    header nav.right ul li a {
+        margin-bottom: 1rem;
+    }
+}
 
+@media screen and (max-width: 495px) {
+    
+    main .wrapper h2 {
+        font-size: 1.75rem;
+    }
+
+    header nav.right ul li a {
+        font-size: 1rem;
+    }
+}
+    
+
+    

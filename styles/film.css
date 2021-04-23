@@ -16,15 +16,20 @@ main .card {
     box-shadow: 5px 5px 5px 5px grey;
 }
 
+.film-wrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
 iframe {
-    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
 }
 
 main .about {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 2rem;
-    margin-left: 2rem;
     place-items: center;
 }
 
@@ -59,3 +64,38 @@ main .buttons {
 }
 
 
+/* MEDIA QUERIES */
+@media screen and (max-width: 1139px) {
+
+    main .about {
+        grid-template-columns: auto;
+        grid-gap: 2rem;
+    }
+
+    main .buttons {
+        justify-self: center;
+    }
+
+    main button.chat {
+        justify-self: center;
+    }
+
+}
+
+@media screen and (max-width: 683px) {
+
+    main .card {
+        grid-template-columns: auto;
+        width: 20rem;
+        height: 40rem;
+        justify-self: center;
+ 
+    }
+
+    .film-wrapper {
+        justify-self: start;
+    }
+
+    
+    
+}

@@ -37,6 +37,7 @@ h3 {
 
 .reply {
     justify-self: end;
+    background-color: khaki;
 }
 
 .message img {
@@ -68,4 +69,50 @@ form.chat textarea {
 
 form.chat button {
     width: fit-content;  
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1092px) {
+
+    form.chat {
+        grid-template-columns: 1fr;
+    }
+
+    form.chat p {
+        justify-self: start;
+    }
+}
+
+@media screen and (max-width: 1003px) {
+
+    .messages {
+        width: 50rem;
+        justify-self: start;
+    }
+}
+
+@media screen and (max-width: 827px) {
+
+    form.chat {
+        width: 30rem;
+    }
+
+    
+
+    .message, .reply {
+        width: 40rem;
+        height: 7rem;
+        justify-self: start;
+        margin: 2rem 2rem;
+    }
+
+    .reply {
+        justify-self: end;
+    }
+
+    button.send {
+        justify-self: end;
+    }
+
+
 }
