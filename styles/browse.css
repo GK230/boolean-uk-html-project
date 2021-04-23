@@ -110,6 +110,8 @@ a.top {
     z-index: 10;
     text-decoration: none;
     padding: 0.5rem;
+    color: white;
+    text-align: center;
 }
 
 

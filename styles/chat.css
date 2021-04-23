@@ -1,16 +1,23 @@
-h3 {
-    text-align: left;
+button {
     margin-left: 2rem;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+}
 
+h3 {
+    margin: 2rem;
+    font-size: 2rem;
+    justify-self: start;
 }
 
 .messages {
     overflow-y: scroll;
     height: 15rem;
     margin-bottom: 3rem;
+    display: grid;
 }
+
+.messages::-webkit-scrollbar {
+    display: none;
+  }
 
 
 .message {
@@ -19,11 +26,16 @@ h3 {
     font-size: 1rem;
     width: 50rem;
     color: black;
-    margin-left: 5rem;
     text-align: left;
     position: relative;
     margin-bottom: 1rem;
     padding: 1rem;
+    justify-self: start;
+
+}
+
+.reply {
+    justify-self: end;
 }
 
 .message img {
@@ -34,21 +46,17 @@ h3 {
     margin-right: 1rem;
 }
 
-.reply {
-    margin-left: 30rem;
-}
-
 form.chat {
-    margin-left: -10rem;
-    margin-bottom: 1rem;
-    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    place-items: center;
+    grid-gap: 1rem;
 
 }
 
 form.chat p {
     font-size: 1.5rem;
-    margin-left: -40rem;
-    margin-bottom: 2rem;
+    color: white;
 }
 
 form.chat textarea {
@@ -59,6 +67,4 @@ form.chat textarea {
 
 form.chat button {
     width: fit-content;  
-    margin-left: 60rem;  
-
 }
