@@ -1,8 +1,6 @@
 
 
 main form {
-    margin-top: 5rem;
-    margin-left: 25rem;
     text-align: left;
     display: grid;
     width: 40rem;
@@ -37,4 +35,75 @@ main form button {
     font-weight: bold;
     font-size: 1.25rem;
     justify-self: right;
+}
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 1182px) {
+    
+    main form {    
+        margin-left: 20rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 1054px) {
+    
+    main form {    
+        margin-left: 15rem;
+        margin-top: 7rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 896px) {
+
+    header {
+        margin-right: 5rem;
+    }
+    
+    main form {    
+        margin-left: 10rem;
+        margin-top: 10rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 896px) {
+    
+    main form {    
+        margin-left: 5rem;
+        margin-top: 10rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 747px) {
+    
+    main form {    
+        width: 30rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 577px) {
+    
+    main form {    
+        width: 20rem;
+    }
+
+    
+}
+
+@media screen and (max-width: 577px) {
+    
+    main form {    
+        width: 20rem;
+    }
+
+    
 }

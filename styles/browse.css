@@ -6,26 +6,22 @@ h2 {
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin-top: 5rem;
 }
 
 .search {
     display: grid;
+    width: 50rem;
+    place-items: center;
 }
 
 .search form {
-
-    width: 50rem;
-
-    margin-left: 30rem;
-
-
+    width: 100%;
+    margin-left: 20rem;
 }
 
 .search form input {
     width: 30rem;
     height: 30px;
-    text-align: center;
     text-align: center;
     border: none;
     border-radius: 5px;
@@ -34,6 +30,7 @@ h2 {
 
 .search h2 {
     text-align: center;
+    width: fit-content;
 }
 
 
@@ -43,7 +40,6 @@ main {
     justify-content: center;
     flex-wrap: wrap;
     width: 98vw;
-    margin-top: 4rem;
     width: 100vw;
 }
 
@@ -67,7 +63,6 @@ main .card {
     padding: 1rem;
     line-height: 1.5rem;
     display: grid;
-    grid-auto-rows: auto;
     background-color: rgb(19, 18, 18);
 }
 
@@ -99,4 +94,109 @@ main .card h3.actors {
 
 main a {
     text-decoration: none;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1342px) {
+
+    .search {
+        width: 50rem;
+        margin-left: 15rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 1139px) {
+    .search {
+        margin-left: 10rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 986px) {
+    .search {
+        margin-left: 5rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+    main .card img {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 886px) {
+    .search {
+        margin-left: 0rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+    main .card {
+        width: 20rem;
+    }
+
+    header {
+        margin-right: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+    .search {
+        margin-left: -5rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+    main .card {
+        width: 20rem;
+    }
+
+}
+
+@media screen and (max-width: 435px) {
+    .search {
+        margin-left: 5rem;
+    }
+
+    .search form {
+        margin-left: 20rem;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    main .card {
+        margin-left: 30rem;
+    }
+
+}
+
+@media screen and (max-width: 369px) {
+
+    .search form input {
+        width: 30rem;
+    }
+
+    main .card {
+        height: 50rem;
+    }
+
 }

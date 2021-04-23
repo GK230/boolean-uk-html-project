@@ -66,6 +66,10 @@ main .review form input.quote {
     width: 75rem;
 }
 
+main .review form .rating {
+    display: inline-block;
+}
+
 main .review form .rating span.fa {
     display: inline-block;
     color: white;
@@ -86,12 +90,15 @@ main .social {
     display: grid;
     grid-template-columns: 300px repeat(3, 75px);
     margin-bottom: 2rem;
-    margin-left: 6rem;
+    justify-self: start;
+    align-items: center;
+    align-self: center;
     
 }
 
 main .social h3 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2rem;
 }
 
 main .social img.icon {

@@ -6,11 +6,14 @@ header nav.right ul li a.signup {
     background-color: grey;
 }
 
+main {
+    display: grid;
+    place-items: center;
+    width: 100vw;
+}
+
 main form {
     display: grid;
-    width: 35rem;
-    height: 30rem;
-    margin-left: 25rem;
     grid-template-rows: auto auto;
     place-items: center;
 }
