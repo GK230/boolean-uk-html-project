@@ -62,15 +62,15 @@ main .card {
     margin: 1rem;
     border: white 1px solid;
     border-radius: 5px;
-    padding: 2rem;
+    padding: 1.5rem;
     line-height: 1.5rem;
     display: grid;
     background-color: rgb(19, 18, 18);
 }
 
 main .card img {
-    width: 12rem;
-    height: 17rem;
+    width: 17rem;
+    height: 23rem;
     object-fit: contain;
     justify-self: center;
 }
