@@ -8,7 +8,7 @@ main .card {
     display: grid;
     grid-template-columns: auto 1fr;
     width: 40rem;
-    height: 20rem;
+    height: 25rem;
     place-items: center;
     justify-self: center;
     box-shadow: 5px 5px 5px 5px grey;
