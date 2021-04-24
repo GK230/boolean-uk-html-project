@@ -1,7 +1,3 @@
-header nav.left ul li:first-child {
-    border-bottom: none;
-}
-
 main {
     display: grid;
 }
@@ -14,23 +10,16 @@ main .card {
     place-items: center;
     justify-self: center;
     box-shadow: 5px 5px 5px 5px grey;
-}
-
-.film-wrapper {
-    overflow: hidden;
-    width: 100%;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
+    margin-bottom: 2rem;
 }
 
 main .about {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, auto);
     margin-top: 2rem;
     place-items: center;
+    grid-gap: 2rem;
+    margin-bottom: 2rem;
 }
 
 main .about img.link-logo {
@@ -38,23 +27,41 @@ main .about img.link-logo {
 }
 
 main button {
-    width: 300px;
+    width: 350px;
     height: 50px;
     margin-top: 2rem;
     background-color: white;
     color: black;
     font-size: 2rem;
     font-weight: bolder;
-    border: none;
-    border-radius: 5px;
+    border: white solid 2px;
+    border-radius: 30px;
     margin-bottom: 1rem;
     justify-self: start;
 }
 
+main button:hover {
+    background-color: black;
+    color: white;
+    border: white solid 2px;
+    transition: 1s;
+}
+
 main button.chat {
-    width: fit-content;
-    padding: 0.5rem;
+    width: 100px;
     justify-self: start;
+    display: grid;
+    place-items: center;
+    color: fuchsia;
+    border: fuchsia solid 2px;
+    background-color: black;
+    border-radius: 30px;
+}
+
+main button.chat:hover {
+    color: black;
+    border: black solid 2px;
+    background-color: fuchsia;
 }
 
 main .buttons {

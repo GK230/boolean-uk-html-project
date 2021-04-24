@@ -11,7 +11,7 @@ main .personal-info {
     margin-bottom: 2em;
     justify-self: start;  
     grid-gap: 1rem;
-    margin-left: 2em;
+    margin-left: 4em;
 }
 
 main .personal-info img.avatar {

@@ -1,9 +1,15 @@
 main {
-    text-align: unset;
 }
 
 main .card {
     grid-template-columns: auto 1fr;
+}
+
+main .about {
+    grid-template-columns: repeat(3, auto);
+    margin-left: 0;
+    justify-self: center;
+    place-items: center;
 }
 
 main .my-review {
